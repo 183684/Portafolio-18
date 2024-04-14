@@ -1,0 +1,54 @@
+input[type="button"] {
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold;
+  font-size: 15px; 
+  padding: 10px 20px; 
+  background-color: green; 
+  color: white; 
+  border: none; 
+  cursor: pointer; 
+  text-align: center; 
+}
+
+header {
+  background-color: green; 
+  font-size: 15px; 
+  font-family: 'Roboto', sans-serif; 
+  font-weight: bold;
+  color: white; 
+  padding: 5px; 
+  position: relative; 
+  z-index: 1; 
+  height: 70px;
+}
+
+#tablaMultiplicar {
+  background-color: #f0f0f0; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#tablaMultiplicar table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+#tablaMultiplicar table td {
+  padding: 10px; 
+  text-align: center; 
+  border: 1px solid #ccc; 
+  font-family: Arial, sans-serif; 
+}
+
+#tablaMultiplicar table td.resultado {
+  font-weight: bold; 
+}
+
+#tablaMultiplicar table tr:nth-child(odd) {
+  background-color: floralwhite; 
+}
+
+#tablaMultiplicar table tr:nth-child(even) {
+  background-color: snow; 
+}
